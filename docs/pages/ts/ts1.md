@@ -1,3 +1,14 @@
+
+https://blog.csdn.net/qq1195566313
+TS是JS的超集，所以JS基础的类型都包含在内
+
+起步安装 npm install typescript -g
+
+运行tsc 文件名
+
+基础类型：Boolean、Number、String、null、undefined 以及 ES6 的  Symbol 和 ES10 的 BigInt。
+
+
 //npm install typeScript -g 
 //全局安装ts
 
