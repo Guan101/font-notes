@@ -8,15 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/study/",
-      "relativePath": "study/README.md",
-      "key": "v-3de1a8a0",
-      "path": "/study/",
-      "lastUpdated": "7/26/2022, 3:24:05 PM",
-      "lastUpdatedTimestamp": 1658820245000
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -44,24 +35,6 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-28e06fe7",
       "path": "/",
-      "lastUpdated": "7/26/2022, 3:24:05 PM",
-      "lastUpdatedTimestamp": 1658820245000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/study/TS/test2.html",
-      "relativePath": "study/TS/test2.md",
-      "key": "v-679f0c34",
-      "path": "/study/TS/test2.html",
-      "lastUpdated": "7/26/2022, 3:24:05 PM",
-      "lastUpdatedTimestamp": 1658820245000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/study/math/math1.html",
-      "relativePath": "study/math/math1.md",
-      "key": "v-76a5c550",
-      "path": "/study/math/math1.html",
       "lastUpdated": "7/26/2022, 3:24:05 PM",
       "lastUpdatedTimestamp": 1658820245000
     },
@@ -98,8 +71,28 @@ export const siteData = {
           "slug": "_5-null和undefined类型"
         }
       ],
-      "lastUpdated": "7/26/2022, 3:24:05 PM",
-      "lastUpdatedTimestamp": 1658820245000
+      "lastUpdated": "7/26/2022, 4:08:34 PM",
+      "lastUpdatedTimestamp": 1658822914000
+    },
+    {
+      "title": "1、any类型",
+      "frontmatter": {},
+      "regularPath": "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+      "relativePath": "study/TS/任意类型.md",
+      "key": "v-5d801439",
+      "path": "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1、any类型",
+          "slug": "_1、any类型"
+        },
+        {
+          "level": 3,
+          "title": "2、unknown 类型",
+          "slug": "_2、unknown-类型"
+        }
+      ]
     },
     {
       "frontmatter": {},
@@ -107,6 +100,15 @@ export const siteData = {
       "relativePath": "study/math/math2.md",
       "key": "v-7a33f10e",
       "path": "/study/math/math2.html",
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/study/math/math1.html",
+      "relativePath": "study/math/math1.md",
+      "key": "v-76a5c550",
+      "path": "/study/math/math1.html",
       "lastUpdated": "7/26/2022, 3:24:05 PM",
       "lastUpdatedTimestamp": 1658820245000
     }
@@ -146,8 +148,8 @@ export const siteData = {
               "path": "/study/TS/基础类型"
             },
             {
-              "title": "第二节",
-              "path": "/study/TS/test2"
+              "title": "任意类型",
+              "path": "/study/TS/任意类型"
             }
           ]
         },

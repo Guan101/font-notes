@@ -9,18 +9,6 @@ import GlobalLayout from "C:\\Users\\Administrator\\AppData\\Roaming\\nvm\\v16.1
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-3de1a8a0",
-    path: "/study/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3de1a8a0").then(next)
-    },
-  },
-  {
-    path: "/study/index.html",
-    redirect: "/study/"
-  },
-  {
     name: "v-28e06fe7",
     path: "/",
     component: GlobalLayout,
@@ -31,22 +19,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-679f0c34",
-    path: "/study/TS/test2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-679f0c34").then(next)
-    },
-  },
-  {
-    name: "v-76a5c550",
-    path: "/study/math/math1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-76a5c550").then(next)
-    },
   },
   {
     name: "v-33b80607",
@@ -65,11 +37,35 @@ export const routes = [
     redirect: "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html"
   },
   {
+    name: "v-5d801439",
+    path: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5d801439").then(next)
+    },
+  },
+  {
+    path: "/study/TS/任意类型.html",
+    redirect: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
+    path: "/study/TS/任意类型.html",
+    redirect: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
     name: "v-7a33f10e",
     path: "/study/math/math2.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7a33f10e").then(next)
+    },
+  },
+  {
+    name: "v-76a5c550",
+    path: "/study/math/math1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-76a5c550").then(next)
     },
   },
   {

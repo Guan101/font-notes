@@ -97,7 +97,7 @@ module.exports = {
                     collapsable: true,
                     children: [
                         { title: '基础类型', path: '/study/TS/基础类型' },
-                        { title: '第二节', path: '/study/TS/test2' },
+                        { title: '任意类型', path: '/study/TS/任意类型' },
                     ]
                 },
                 {
