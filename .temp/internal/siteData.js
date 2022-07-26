@@ -12,7 +12,9 @@ export const siteData = {
       "regularPath": "/study/",
       "relativePath": "study/README.md",
       "key": "v-3de1a8a0",
-      "path": "/study/"
+      "path": "/study/",
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
     },
     {
       "title": "Home",
@@ -42,36 +44,71 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-28e06fe7",
       "path": "/",
-      "lastUpdated": "7/25/2022, 10:22:59 PM",
-      "lastUpdatedTimestamp": 1658758979000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html",
-      "relativePath": "study/TS/基础类型.md",
-      "key": "v-33b80607",
-      "path": "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/study/math/math1.html",
-      "relativePath": "study/math/math1.md",
-      "key": "v-76a5c550",
-      "path": "/study/math/math1.html"
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
     },
     {
       "frontmatter": {},
       "regularPath": "/study/TS/test2.html",
       "relativePath": "study/TS/test2.md",
       "key": "v-679f0c34",
-      "path": "/study/TS/test2.html"
+      "path": "/study/TS/test2.html",
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/study/math/math1.html",
+      "relativePath": "study/math/math1.md",
+      "key": "v-76a5c550",
+      "path": "/study/math/math1.html",
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html",
+      "relativePath": "study/TS/基础类型.md",
+      "key": "v-33b80607",
+      "path": "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1.字符串类型",
+          "slug": "_1-字符串类型"
+        },
+        {
+          "level": 3,
+          "title": "2.数字类型",
+          "slug": "_2-数字类型"
+        },
+        {
+          "level": 3,
+          "title": "3.布尔类型",
+          "slug": "_3-布尔类型"
+        },
+        {
+          "level": 3,
+          "title": "4.空值类型",
+          "slug": "_4-空值类型"
+        },
+        {
+          "level": 3,
+          "title": "5.Null和undefined类型",
+          "slug": "_5-null和undefined类型"
+        }
+      ],
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
     },
     {
       "frontmatter": {},
       "regularPath": "/study/math/math2.html",
       "relativePath": "study/math/math2.md",
       "key": "v-7a33f10e",
-      "path": "/study/math/math2.html"
+      "path": "/study/math/math2.html",
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
     }
   ],
   "themeConfig": {

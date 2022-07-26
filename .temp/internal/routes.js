@@ -33,6 +33,22 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-679f0c34",
+    path: "/study/TS/test2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-679f0c34").then(next)
+    },
+  },
+  {
+    name: "v-76a5c550",
+    path: "/study/math/math1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-76a5c550").then(next)
+    },
+  },
+  {
     name: "v-33b80607",
     path: "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html",
     component: GlobalLayout,
@@ -47,22 +63,6 @@ export const routes = [
   {
     path: "/study/TS/基础类型.html",
     redirect: "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html"
-  },
-  {
-    name: "v-76a5c550",
-    path: "/study/math/math1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-76a5c550").then(next)
-    },
-  },
-  {
-    name: "v-679f0c34",
-    path: "/study/TS/test2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-679f0c34").then(next)
-    },
   },
   {
     name: "v-7a33f10e",
