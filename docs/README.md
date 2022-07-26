@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /lufi.jpg
-heroText: 管的前端记录
+heroText: 前端记录
 tagline: 一点一滴都是进步
 actionText: 马上进入 →
-actionLink: /pages/ts/ts1.md
+actionLink: /study/TS/基础类型
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
