@@ -98,6 +98,7 @@ module.exports = {
                     children: [
                         { title: '基础类型', path: '/study/TS/基础类型' },
                         { title: '任意类型', path: '/study/TS/任意类型' },
+                        { title: '接口和对象类型', path: '/study/TS/接口和对象类型' },
                     ]
                 },
                 {

@@ -9,6 +9,22 @@ import GlobalLayout from "C:\\Users\\Administrator\\AppData\\Roaming\\nvm\\v16.1
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-5d801439",
+    path: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5d801439").then(next)
+    },
+  },
+  {
+    path: "/study/TS/任意类型.html",
+    redirect: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
+    path: "/study/TS/任意类型.html",
+    redirect: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
     name: "v-28e06fe7",
     path: "/",
     component: GlobalLayout,
@@ -37,20 +53,28 @@ export const routes = [
     redirect: "/study/TS/%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8B.html"
   },
   {
-    name: "v-5d801439",
-    path: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+    name: "v-76a5c550",
+    path: "/study/math/math1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5d801439").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-76a5c550").then(next)
     },
   },
   {
-    path: "/study/TS/任意类型.html",
-    redirect: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html"
+    name: "v-d1645c74",
+    path: "/study/TS/%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d1645c74").then(next)
+    },
   },
   {
-    path: "/study/TS/任意类型.html",
-    redirect: "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html"
+    path: "/study/TS/接口和对象类型.html",
+    redirect: "/study/TS/%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B.html"
+  },
+  {
+    path: "/study/TS/接口和对象类型.html",
+    redirect: "/study/TS/%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B.html"
   },
   {
     name: "v-7a33f10e",
@@ -58,14 +82,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-7a33f10e").then(next)
-    },
-  },
-  {
-    name: "v-76a5c550",
-    path: "/study/math/math1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-76a5c550").then(next)
     },
   },
   {

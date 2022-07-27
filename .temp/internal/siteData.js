@@ -8,6 +8,28 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "1、any类型",
+      "frontmatter": {},
+      "regularPath": "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+      "relativePath": "study/TS/任意类型.md",
+      "key": "v-5d801439",
+      "path": "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1、any类型",
+          "slug": "_1、any类型"
+        },
+        {
+          "level": 3,
+          "title": "2、unknown 类型",
+          "slug": "_2、unknown-类型"
+        }
+      ],
+      "lastUpdated": "7/26/2022, 5:37:03 PM",
+      "lastUpdatedTimestamp": 1658828223000
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -75,22 +97,50 @@ export const siteData = {
       "lastUpdatedTimestamp": 1658822914000
     },
     {
-      "title": "1、any类型",
       "frontmatter": {},
-      "regularPath": "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
-      "relativePath": "study/TS/任意类型.md",
-      "key": "v-5d801439",
-      "path": "/study/TS/%E4%BB%BB%E6%84%8F%E7%B1%BB%E5%9E%8B.html",
+      "regularPath": "/study/math/math1.html",
+      "relativePath": "study/math/math1.md",
+      "key": "v-76a5c550",
+      "path": "/study/math/math1.html",
+      "lastUpdated": "7/26/2022, 3:24:05 PM",
+      "lastUpdatedTimestamp": 1658820245000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/study/TS/%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B.html",
+      "relativePath": "study/TS/接口和对象类型.md",
+      "key": "v-d1645c74",
+      "path": "/study/TS/%E6%8E%A5%E5%8F%A3%E5%92%8C%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B.html",
       "headers": [
         {
           "level": 3,
-          "title": "1、any类型",
-          "slug": "_1、any类型"
+          "title": "1、对象的类型",
+          "slug": "_1、对象的类型"
         },
         {
           "level": 3,
-          "title": "2、unknown 类型",
-          "slug": "_2、unknown-类型"
+          "title": "2、interface 合并与继承",
+          "slug": "_2、interface-合并与继承"
+        },
+        {
+          "level": 3,
+          "title": "3、interface中定义一个可选属性",
+          "slug": "_3、interface中定义一个可选属性"
+        },
+        {
+          "level": 3,
+          "title": "4、任意属性[propName: string]",
+          "slug": "_4、任意属性-propname-string"
+        },
+        {
+          "level": 3,
+          "title": "5、只读属性 readonly",
+          "slug": "_5、只读属性-readonly"
+        },
+        {
+          "level": 3,
+          "title": "6、添加函数",
+          "slug": "_6、添加函数"
         }
       ]
     },
@@ -100,15 +150,6 @@ export const siteData = {
       "relativePath": "study/math/math2.md",
       "key": "v-7a33f10e",
       "path": "/study/math/math2.html",
-      "lastUpdated": "7/26/2022, 3:24:05 PM",
-      "lastUpdatedTimestamp": 1658820245000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/study/math/math1.html",
-      "relativePath": "study/math/math1.md",
-      "key": "v-76a5c550",
-      "path": "/study/math/math1.html",
       "lastUpdated": "7/26/2022, 3:24:05 PM",
       "lastUpdatedTimestamp": 1658820245000
     }
@@ -150,6 +191,10 @@ export const siteData = {
             {
               "title": "任意类型",
               "path": "/study/TS/任意类型"
+            },
+            {
+              "title": "接口和对象类型",
+              "path": "/study/TS/接口和对象类型"
             }
           ]
         },
