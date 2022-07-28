@@ -76,7 +76,7 @@
 // };
 module.exports = {
     title: '前端乐园',
-    description: '牛魔王的博客',
+    description: '',
     head: [],
     plugins: [],
     themeConfig: {
