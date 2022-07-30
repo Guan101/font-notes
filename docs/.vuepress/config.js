@@ -20,6 +20,7 @@ module.exports = {
             { title: "任意类型", path: "/study/TS/任意类型" },
             { title: "接口和对象类型", path: "/study/TS/接口和对象类型" },
             { title: "数组类型", path: "/study/TS/数组类型" },
+            { title: "函数扩展", path: "/study/TS/函数扩展" },
           ],
         },
         {
