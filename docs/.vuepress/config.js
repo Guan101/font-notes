@@ -83,7 +83,6 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             { text: '指南', link: '/guide/' },
-            { text: '生活', link: '/life/'},
             { text: '学习',
                 items: [
                     { text: '数学', link: '/study/math/math1' },
