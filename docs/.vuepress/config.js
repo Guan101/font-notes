@@ -6,7 +6,6 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
-      //阿师大
     ],
     sidebar: {
       "/study/": [
