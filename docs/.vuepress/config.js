@@ -38,6 +38,16 @@ module.exports = {
             },
           ],
         },
+        {
+          title: "课程学习",
+          collapsable: true,
+          children: [
+            {
+              title: "浏览器",
+              path: "/study/课程学习/浏览器",
+            },
+          ],
+        },
       ],
     },
     sidebarDepth: 0, //左侧导航显示的层级
