@@ -48,6 +48,16 @@ module.exports = {
             },
           ],
         },
+        {
+          title: "日常总结",
+          collapsable: true,
+          children: [
+            {
+              title: "ES2022（ES13)中的 一些JavaScript 新特性",
+              path: "/study/日常总结/ES2022（ES13)中的 一些JavaScript 新特性",
+            },
+          ],
+        },
       ],
     },
     sidebarDepth: 0, //左侧导航显示的层级
