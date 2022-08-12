@@ -53,8 +53,12 @@ module.exports = {
           collapsable: true,
           children: [
             {
-              title: "ES2022（ES13)中的 一些JavaScript 新特性",
+              title: "ES2022中的一些JavaScript新特性",
               path: "/study/日常总结/ES2022（ES13)中的 一些JavaScript 新特性",
+            },
+            {
+              title: "template和v-if / v-show",
+              path: "/study/日常总结/template和v-if和v-show",
             },
           ],
         },
