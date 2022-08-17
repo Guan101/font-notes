@@ -38,6 +38,30 @@ module.exports = {
             },
           ],
         },
+        {
+          title: "课程学习",
+          collapsable: true,
+          children: [
+            {
+              title: "浏览器",
+              path: "/study/课程学习/浏览器",
+            },
+          ],
+        },
+        {
+          title: "日常总结",
+          collapsable: true,
+          children: [
+            {
+              title: "ES2022中的一些JavaScript新特性",
+              path: "/study/日常总结/ES2022中的一些JavaScript新特性",
+            },
+            {
+              title: "template和v-show / v-if",
+              path: "/study/日常总结/template和v-show和v-if",
+            },
+          ],
+        },
       ],
     },
     sidebarDepth: 0, //左侧导航显示的层级
