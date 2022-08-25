@@ -60,6 +60,10 @@ module.exports = {
               title: "template和v-show / v-if",
               path: "/study/日常总结/template和v-show和v-if",
             },
+            {
+              title: "CSS滚动阻止冒泡",
+              path: "/study/日常总结/滚动阻止冒泡",
+            },
           ],
         },
       ],
