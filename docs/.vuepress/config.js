@@ -39,12 +39,16 @@ module.exports = {
           ],
         },
         {
-          title: "课程学习",
+          title: "系统学习",
           collapsable: true,
           children: [
             {
+              title: "npm-现代前端开发模式",
+              path: "/study/系统学习/npm-现代前端开发模式",
+            },
+            {
               title: "浏览器",
-              path: "/study/课程学习/浏览器",
+              path: "/study/系统学习/浏览器",
             },
           ],
         },
